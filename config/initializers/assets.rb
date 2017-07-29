@@ -17,3 +17,4 @@ Rails.application.config.assets.paths << Rails.root.join('app', 'hyperloop').to_
 Rails.application.config.assets.precompile += %w( client-only.js components.js )
 
 Rails.application.config.assets.paths << Rails.root.join('public', 'packs').to_s
+Rails.application.config.assets.paths << Rails.root.join('public', 'assets').to_s
