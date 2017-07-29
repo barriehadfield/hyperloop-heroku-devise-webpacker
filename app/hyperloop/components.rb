@@ -1,8 +1,9 @@
 
 require 'opal'
 
-require 'react/react-source-browser'
-require 'react/react-source-server'
+require 'client_and_server'
+# require 'react/react-source-browser'
+# require 'react/react-source-server'
 
 require 'hyper-component'
 
