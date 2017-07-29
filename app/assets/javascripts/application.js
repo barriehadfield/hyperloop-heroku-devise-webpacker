@@ -13,6 +13,7 @@
 //= require 'react_ujs'
 //= require 'jquery'
 //= require 'jquery_ujs'
+//= require 'client_only'
 //= require_tree .
 
 //= require 'components'

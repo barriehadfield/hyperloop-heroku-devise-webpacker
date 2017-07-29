@@ -1,7 +1,7 @@
 
 require 'opal'
 
-require 'client_and_server'
+# require 'client_and_server'
 # require 'react/react-source-browser'
 # require 'react/react-source-server'
 
