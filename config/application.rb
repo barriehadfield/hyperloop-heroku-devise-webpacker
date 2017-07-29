@@ -20,8 +20,8 @@ module Monkee
     config.autoload_paths   -= %W(#{config.root}/app/hyperloop)
     config.eager_load_paths -= %W(#{config.root}/app/hyperloop)
 
-    config.eager_load_paths += %W(#{config.root}/app/models)
-    config.autoload_paths += %W(#{config.root}/app/models)
+    config.eager_load_paths += %W(#{config.root}/app/hyperloop/models)
+    config.autoload_paths += %W(#{config.root}/app/hyperloop/models)
 
     config.eager_load_paths += %W(#{config.root}/app/hyperloop/operations)
     config.autoload_paths   += %W(#{config.root}/app/hyperloop/operations)

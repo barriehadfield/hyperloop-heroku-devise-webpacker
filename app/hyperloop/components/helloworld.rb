@@ -34,6 +34,9 @@
       DIV do
         H1 { "Monkee says Hello world" }
         BUTTON { "Click me" }.on(:click) { alert "click" }
+        DIV do
+          H1 {"Helloworld - #{Member.current.email}"}
+        end
       end
     end
   end
