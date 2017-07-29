@@ -26,5 +26,7 @@ module Monkee
     config.eager_load_paths += %W(#{config.root}/app/hyperloop/operations)
     config.autoload_paths   += %W(#{config.root}/app/hyperloop/operations)
 
+    Opal::Processor.source_map_enabled = false 
+
   end
 end
